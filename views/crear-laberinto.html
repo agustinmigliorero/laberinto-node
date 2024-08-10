@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Editor de niveles</title>
+    <link rel="icon" type="image/png" href="/assets/pared.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="/css/index.css"
+    />
+  </head>
+  <body>
+    <center>
+      <h2>Genera tu laberinto!</h2>
+      <input type="number" placeholder="Filas" id="input-filas" />
+      <br />
+      <input type="number" placeholder="Columnas" id="input-columnas" />
+      <br />
+      <button id="btn-generar">Generar</button>
+      <br />
+      <br />
+      <div id="div-laberinto"></div>
+      <br />
+      <button style="display: none" id="btn-guardar">Guardar Laberinto</button>
+    </center>
+
+    <script src="/js/crear-laberinto.js"></script>
+  </body>
+</html>

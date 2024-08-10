@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+.celda {
+  width: 50px;
+  height: 48px;
+  display: inline-block;
+  /* border: 1px solid black; */
+  margin: 0;
+  box-sizing: content-box;
+  padding: 0;
+}
+
+.camino {
+  background-color: #f0f0f0;
+}
+
+.pared {
+  background-color: #2b2b2b;
+}
+
+.jugador {
+  background-image: url("../assets/camino.png");
+  rotate: 0deg;
+}
+
+.salida {
+  background-color: red;
+}
+
+#div-laberinto {
+  margin-top: 2.5%;
+}
+
+.fila-laberinto {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
